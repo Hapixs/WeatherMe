@@ -79,6 +79,13 @@
     - Configuration des période de saison en fonction d'un nombre de jours in-game donner.
 
     **Modification du gameplay** <br>
+    La mise en place de différent climats impact de certaines manière le jeux:
+    > En fonction de la saison et de l'endroit les feuilles des arbres peuvent ce voir changer de couleurs / les perdre.
+    >
+    > La saison comme le printemps peuvent boost les loot de pommes etc des feuilles casssés.
+    > 
+    > La saison peut intergire sur le climat et la météo.
+
 
 - Gestion et synchronisation du climat
     - Synchronisation du climat d'une région par rapport à une géolocalisation réele.
@@ -135,3 +142,23 @@
         > _Le fichier local seraient sous la forme JSON ou YAML et contenue dans le dossier par défaut ./plugins/weatherme/global.json ._
         >
         > L'administrateur peut choisir de syncrhoniser avec le serveur 'Master'
+
+### Aspect technique:
+
+- **Api call**
+> Le plugin doit récuperer les informations d'une géolocalisation réele tel que:
+    > - La météo
+    > - La température / humidité
+    > - L'heure de la journée
+
+Dans ce cadre l'api 'OpenCast' serait intégrer au plugin.
+
+- **Machine to Machine**
+> Afin de mettre en place la synchronisation entre serveur une partie Websocket sera integrer dans le plugin afin que les different serveur mis en ligne puissent communiqués entre eux
+
+- **Base de donnée**
+> Le plugin utilisera une base de donnée afin de principalement stocker les information de configuration du serveur actuel
+
+> Mais aussi afin de garder en mémoire la liste des serveur en ligne et leurs adresses.
+
+> Les informations relative au joueurs / mondes y seront stocker si necessaire.
