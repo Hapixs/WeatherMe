@@ -163,6 +163,15 @@ Dans ce cadre l'api 'OpenCage Geocoding' serait intégrer au plugin.
 
 > Les informations relative au joueurs / mondes y seront stocker si necessaire.
 
+**Interactions utilisateur**
+
+> Afin de simplifier l'interaction des utilisateurs, des menu in-game seront mis en place en fonction de la demande.
+
+> Des commandes seront aussi disponible pour un controle plus étendue
+
+**Protection contre les gens pas cool**
+
+> En utilisant le système 'built-in' de la librairie Bukkit, des permissions seront mis en place, pour la modification d'état de variable et pour l'acces au fonctionalité et leur menu d'interaction.
 
 
 _Projet à faire sous grosse redbull_
