@@ -162,3 +162,7 @@ Dans ce cadre l'api 'OpenCast' serait intégrer au plugin.
 > Mais aussi afin de garder en mémoire la liste des serveur en ligne et leurs adresses.
 
 > Les informations relative au joueurs / mondes y seront stocker si necessaire.
+
+
+
+_Projet à faire sous grosse redbull_
