@@ -151,7 +151,7 @@
     > - La température / humidité
     > - L'heure de la journée
 
-Dans ce cadre l'api 'OpenCast' serait intégrer au plugin.
+Dans ce cadre l'api 'OpenCage Geocoding' serait intégrer au plugin.
 
 - **Machine to Machine**
 > Afin de mettre en place la synchronisation entre serveur une partie Websocket sera integrer dans le plugin afin que les different serveurs mis en ligne puissent communiquer entre eux
