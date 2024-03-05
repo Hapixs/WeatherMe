@@ -154,7 +154,7 @@
 Dans ce cadre l'api 'OpenCast' serait intégrer au plugin.
 
 - **Machine to Machine**
-> Afin de mettre en place la synchronisation entre serveur une partie Websocket sera integrer dans le plugin afin que les different serveur mis en ligne puissent communiqués entre eux
+> Afin de mettre en place la synchronisation entre serveur une partie Websocket sera integrer dans le plugin afin que les different serveurs mis en ligne puissent communiquer entre eux
 
 - **Base de donnée**
 > Le plugin utilisera une base de donnée afin de principalement stocker les information de configuration du serveur actuel
